@@ -1,0 +1,308 @@
+::selection {
+  background-color: #cde1f8;
+}
+ul {
+  list-style: none;
+}
+nav a.active {
+  position: relative;
+}
+
+nav a.active::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  background-color: white;
+  left: 5px;
+  bottom: 0;
+}
+
+nav a {
+  position: relative;
+}
+.white {
+  color: white !important;
+}
+
+nav a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 5px;
+  bottom: 0;
+  background-color: white;
+  transition: all 1s;
+}
+
+nav a:hover::after {
+  width: 90%;
+  height: 2px;
+  color: white !important;
+}
+.dropdown-toggle::after {
+  border: 0 !important ;
+}
+
+.dropdown-menu li:hover a {
+  color: #0078ff;
+}
+
+.Deep-Down:hover .list-drop {
+  display: block !important;
+}
+
+.list-drop {
+  right: -120px;
+  display: none;
+}
+header {
+  background-image: url(../images/hero-bg.jpg);
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+header .overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+header h1 {
+  font-size: 72px;
+}
+header h3 {
+  position: relative;
+  margin-right: 170px;
+}
+header h3::after {
+  content: "|";
+  position: absolute;
+  animation: typing 3s infinite, typing1 4s 3s infinite, typing3 3s 7s infinite,
+    typing4 3s 10s infinite;
+}
+
+#about .text {
+  position: relative;
+  top: 0;
+}
+#about .text::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #0078ff;
+  width: 120px;
+  height: 3px;
+}
+#services i {
+  background-color: white;
+  border-radius: 50%;
+  border: 10px solid #0078ff;
+}
+
+.para {
+  position: relative;
+}
+.para::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 50%;
+  background-color: #0078ff;
+  width: 50px;
+  height: 5px;
+}
+
+#services .card:hover i {
+  color: white;
+  border-color: #cde1f8;
+  background-color: #0078ff;
+}
+
+.fixed {
+  background-image: url(../images/counters-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.fixed .overlay,
+#work-fixed .overlay,
+#contact .overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 119, 255, 0.7);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.small-word {
+  font-size: 12px;
+}
+
+#work .card img {
+  transition: transform 1s;
+}
+#work .card:hover img {
+  transform: scale(1.15);
+}
+
+#work-fixed {
+  background-image: url(../images/overlay-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.carousel-indicators [data-bs-target] {
+  text-indent: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.carousel-indicators {
+  bottom: -100px;
+  margin: 50px 0;
+}
+.my-image {
+  width: 120px;
+  margin: 15px auto;
+}
+#blog h5 {
+  transition: color 1s;
+}
+
+#blog h5:hover {
+  color: #0078ff;
+}
+
+#blog span {
+  top: -15px;
+  left: 36%;
+}
+
+#blog .rounded-image img {
+  width: 30px;
+  margin-right: 7px;
+}
+
+#contact {
+  background-image: url(../images/overlay-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.brdr {
+  width: 120px;
+  height: 3px;
+  background-color: #0078ff;
+}
+
+input,
+textarea {
+  width: 90%;
+  border-color: #dee2e6;
+}
+
+footer {
+  background-color: #0062d3;
+}
+.fixed-btn {
+  height: 20px;
+  width: 20px;
+  background-color: #0078ff;
+  right: 20px;
+  bottom: 20px;
+  transition: background-color 1s;
+}
+
+@media (max-width: 575px) {
+  #services {
+    padding: 20px 0;
+  }
+  #services .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #services .card {
+    margin: 10px 0;
+  }
+  header h1 {
+    font-size: 40px !important;
+    width: 320px;
+  }
+  .margin-top {
+    margin-top: 25px;
+  }
+  .margin-y {
+    margin: 20px 0;
+  }
+  nav a::after {
+    display: none;
+  }
+  nav ul {
+    text-align: center;
+  }
+  .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .image {
+    width: 70%;
+  }
+  .icon {
+    width: 30%;
+  }
+  .icon {
+    display: flex;
+    justify-content: end;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  #blog span {
+    top: -15px;
+    left: 42%;
+  }
+  header h1 {
+    font-size: 48px !important;
+    width: 320px;
+  }
+  nav a::after {
+    display: none;
+  }
+  nav ul {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #blog span {
+    top: -15px;
+    left: 27%;
+  }
+  .card-footer {
+    display: flex;
+    justify-content: center;
+  }
+  header h1 {
+    font-size: 72px !important;
+    width: 500px;
+  }
+  nav a::after {
+    display: none;
+  }
+  nav ul {
+    text-align: center;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #blog span {
+    top: -15px;
+    left: 30%;
+  }
+}

@@ -1,0 +1,249 @@
+@keyframes typing {
+    0% {
+      content: "D|";
+    }
+    6% {
+      content: "De|";
+    }
+    12% {
+      content: "Des|";
+    }
+    18% {
+      content: "Desi|";
+    }
+    24% {
+      content: "Desig|";
+    }
+    30% {
+      content: "Design|";
+    }
+    36% {
+      content: "Designe|";
+    }
+    42% {
+      content: "Designer|";
+    }
+    48% {
+      content: "Designer|";
+    }
+    54% {
+      content: "Designe|";
+    }
+    60% {
+      content: "Design|";
+    }
+    66% {
+      content: "Desig|";
+    }
+    72% {
+      content: "Desi|";
+    }
+    78% {
+      content: "Des|";
+    }
+    84% {
+      content: "De|";
+    }
+    90% {
+      content: "D|";
+    }
+    100% {
+      content: "|";
+    }
+  }
+  @keyframes typing1 {
+    0% {
+      content: "|";
+    }
+    3.8% {
+      content: "p|";
+    }
+    7.6% {
+      content: "ph|";
+    }
+    11.4% {
+      content: "pho|";
+    }
+    15.2% {
+      content: "phot|";
+    }
+    19% {
+      content: "photo|";
+    }
+    22.8% {
+      content: "photog|";
+    }
+    26.6% {
+      content: "photogr|";
+    }
+    30.4% {
+      content: "photogra|";
+    }
+    34.2% {
+      content: "photograp|";
+    }
+    38% {
+      content: "photograph|";
+    }
+    41.8% {
+      content: "photographe|";
+    }
+    45.6% {
+      content: "photographer|";
+    }
+    49.4% {
+      content: "photographe|";
+    }
+    53.2% {
+      content: "photograph|";
+    }
+    57% {
+      content: "photograp|";
+    }
+    60.8% {
+      content: "photogra|";
+    }
+    64.6% {
+      content: "photogr|";
+    }
+    68.4% {
+      content: "photog|";
+    }
+    72.2% {
+      content: "photo|";
+    }
+    76% {
+      content: "phot|";
+    }
+    79.8% {
+      content: "pho|";
+    }
+    83.6% {
+      content: "ph|";
+    }
+    87.4% {
+      content: "p|";
+    }
+    100% {
+      content: "|";
+    }
+  
+  }
+
+  @keyframes typing3{
+    0% {
+      content: "D|";
+    }
+    6% {
+      content: "De|";
+    }
+    12% {
+      content: "Dev|";
+    }
+    18% {
+      content: "Deve|";
+    }
+    24% {
+      content: "Devel|";
+    }
+    30% {
+      content: "Develo|";
+    }
+    36% {
+      content: "Develop|";
+    }
+    42% {
+      content: "Develope|";
+    }
+    48% {
+      content: "Developer|";
+    }
+    54% {
+      content: "Develope|";
+    }
+    60% {
+      content: "Develop|";
+    }
+    66% {
+      content: "Develo|";
+    }
+    72% {
+      content: "Devel|";
+    }
+    78% {
+      content: "Deve|";
+    }
+    84% {
+      content: "Dev|";
+    }
+    90% {
+      content: "De|";
+    }
+    100% {
+      content: "D|";
+    }
+  }
+
+
+  @keyframes typing4{
+    0% {
+      content: "F|";
+    }
+    5% {
+      content: "Fr|";
+    }
+    10% {
+      content: "Fre|";
+    }
+    15% {
+      content: "Free|";
+    }
+    20% {
+      content: "Freel|";
+    }
+    25% {
+      content: "Freela|";
+    }
+    30% {
+      content: "Freelan|";
+    }
+    35% {
+      content: "Freelanc|";
+    }
+    40% {
+      content: "Freelance|";
+    }
+    45% {
+      content: "Freelancer|";
+    }
+    50% {
+      content: "Freelance|";
+    }
+    55% {
+      content: "Freelanc|";
+    }
+    60% {
+      content: "Freelan|";
+    }
+    65% {
+      content: "Freela|";
+    }
+    70% {
+      content: "Freel|";
+    }
+    75% {
+      content: "Free|";
+    }
+    80% {
+      content: "Fre|";
+    }
+    85% {
+      content: "Fr|";
+    }
+    90% {
+      content: "F|";
+    }
+    100% {
+      content: "|";
+    }
+  }
